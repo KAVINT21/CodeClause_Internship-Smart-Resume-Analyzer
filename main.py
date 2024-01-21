@@ -87,7 +87,7 @@ def run():
             f'<embed src="data:application/pdf;base64,{pdf_base64}" width="700" height="1000" type="application/pdf"></embed>',
             unsafe_allow_html=True)
 
-        openai.api_key = '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'
+        openai.api_key = "" #YOUR CHATGPT API KEY
 
 
 
